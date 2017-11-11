@@ -2,14 +2,17 @@
 body{
 	font-family: times;
 	size: 48px;
-	color: navy;
+	color: #584c16;
 	background-image: url(https://tse1.mm.bing.net/th?id=OIP.8DM6ea-vSdlNCGfw6F72XQEsDH&w=298&h=198&c=7&qlt=90&o=4&dpr=1.5&pid=1.7);
 	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow: scroll;
 }
 
 a{
-	color: navy;
+	color: #584c16;
 	text-decoration: none;
+
 }
 
 nav{
@@ -43,9 +46,37 @@ nav{
 	text-align: center;
 	font-size: 18px;
 	height: 60%;
-	width: 30%;
+	width: 33%;
 	border: 1px solid powderblue;
 	border-radius: 15px;
 }
 
+#classes{
+	font-family: times;
+	text-align: left;
+	font-size: 18px;
+	height: 60%;
+	width: 45%;
+	border: 1px solid powderblue;
+	border-radius: 15px;
+}
 
+#extracurriculars{
+	font-family: times;
+	text-align: left;
+	font-size: 18px;
+	height: 60%;
+	width: 53%;
+	border: 1px solid powderblue;
+	border-radius: 15px;
+}
+
+#contact-info2{
+	font-family: times;
+	text-align: center;
+	font-size: 18px;
+	height: 60%;
+	width: 53%;
+	border: 1px solid powderblue;
+	border-radius: 15px;
+}
