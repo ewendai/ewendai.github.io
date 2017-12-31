@@ -1,0 +1,141 @@
+
+/* 
+FONTS
+
+font-family: 'Slabo 27px', serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Spectral SC', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Domine', serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Old Standard TT', serif;
+font-family: 'Cinzel', serif;
+*/
+
+body{
+	font-family: 'EB Garamond', serif;
+	size: 12px;
+	color: black;
+	background-color: lightblue;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow: scroll;
+}
+
+/* NAVIGATION BAR */
+#logo{
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  height: 75px; 
+  width: 105px;
+  text-align: center;
+  border: .1px transparent black;
+  line-height: 100%;
+  float: left;
+}
+
+#sidebar {
+  width: 50px;
+  top:0;
+  left:0;
+  color: #808B96;
+  height: 100vh;
+  background: white;
+  overflow: hidden;
+  position: fixed;
+  opacity:.5;
+  transition: opacity 1.5s;
+  transition: width .2s;
+}
+#sidebar:hover {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.sidenav a {
+  padding-left: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 200%;
+  color: black;
+  display: block;
+  transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#maintext {
+	font-family: 'Domine', serif;
+	font-size: 20px;
+	text-align: left;
+	padding-top: 7%;
+	width: 30%;
+	position: fixed;
+	overflow: hidden;
+	right:5%;
+	top:0;
+}
+
+#contact-info{
+	padding-left: 120px;
+}
+
+#footer {
+  margin-bottom: 0;
+  bottom:0;
+}
+
+/* HOME */
+#intro{
+	font-size: 20px;
+	width: 40vw;
+	height: 100%;
+	overflow: hidden;
+	padding-top: 15%;
+	padding-bottom: 5%;
+	padding-left: 15%;
+	float: center;
+	text-align: center;
+	border: .1px transparent black;
+}
+
+/* ABOUT ME */
+#aboutmoi{
+	font-size: 20px;
+	width: 40vw;
+	height: 100%;
+	overflow: hidden;
+	padding-top: 6%;
+	padding-left: 15%;
+	float: center;
+	text-align: left;
+	border: .1px transparent black;
+}

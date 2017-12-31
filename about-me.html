@@ -1,67 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title> About Ewen </title>
-	<link rel= "stylesheet" type = "text/css" href = "base.css" />
+	
+	<link rel= "stylesheet" type = "text/css" href = "css/base.css" />
+
+	<!-- FONTS: Google API -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Cinzel:400,700,900|Domine:400,700|EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i|Old+Standard+TT:400,400i,700|Pathway+Gothic+One|Quattrocento:400,700|Slabo+27px|Spectral+SC:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+
 </head>
 <body>
-	<div id="header">
-		<h1>Yiwen (Ewen) Dai</h1>
-		UC Berkeley, Class of 2021
-		<br>
-		<br>
+
+	<!-- LEFT -->
+	<div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+
+        <!-- to make the entire div a hyperlink -->	
+        <a href = "https://ewendai.github.io/">
+			<div id="logo" style = "letter-spacing: 1px" style = "padding-bottom: 50px">
+				<br>
+				<span style = "font-size: 72px; letter-spacing: 3px">ED</span>
+				ewen dai
+		    </div>
+	    </a>
+
+	    <div id = "navlinks">
+	        <a href="https://ewendai.github.io/"> Home </a>
+	        <a href="about-me.html"> About Me </a>
+	        <a href="img/Resume.pdf"> Resume </a>
+	    </div>
     </div>
 
-    <nav>
-		<a href = "https://ewendai.github.io/"> Main Page | </a>
-		<a href = "about-me.html"> About Me | </a>
-		<a href = "EwenDaiFall2017Resume.pdf"> Resume </a>
-	</nav>
-
-	<div id="classes" style="float: left; float: top">
-		<span style = "text-align: center">
-			<h4> <u> Current Courses </u> </h4>
-		</span>
-		<ul>
-			<li> CS 61A: The Structure and Interpretation of Computer Programs </li>
-			<li> MATH 53: Multivariable Calculus </li>
-			<li> MATH 54: Linear Algebra and Differential Equations </li>
-			<li> EPS C82: Oceans </li>
-		</ul>
-
-		<span style = "text-align: center">
-			<h4> <u> Next Semester: Planned Courses </u> </h4>
-		</span>
-		<ul>
-			<li> CS 61B: Data Structures </li>
-			<li> CS 70: Discrete Mathematics and Probability Theory </li>
-			<li> EE 16B: Designing Information Devices and Systems II </li>
-			<li> MUSIC 25: Introduction to Music Theory </li>
-			<li> INDENG 95: A. Richard Newton Lecture Series </li>
-		</ul>
-	</div>
-
-	<div id="extracurriculars" style="float: right">
-		<span style = "text-align: center">
-			<h4> Fall 2017 Extracurriculars </h4>
-		</span>
-		<ul>
-			<li> Regents' and Chancellor's Scholarship Association (RCSA): Web Development Committee </li>
-			<li> Statistics Undergraduate Student Association (SUSA): Web Development Committee </li>
-			<li> Virtual Reality @Berkeley (VRAB): Halloween Demo </li>
-			<li> Asian American Association (AAA): Professional Development Committee </li>
-		</ul>
-	</div>
-
-	<div id="contact-info2" style = "float: right; margin-top: 15px; padding-bottom: 15px">
-    	<h4> CONTACT INFO </h4>
-		<a href = "mailto: ewendai@berkeley.edu"> Email </a>
-    	<br>
-    	<a href = "https://www.linkedin.com/in/ewendai/"> Linkedin: ewendai </a>
-    	<br> 
-    	<a href= "https://github.com/ewendai"> Github </a>
-    	<br>
+    <div id="sidebar">
+        <span style="font-size:30px;cursor:pointer;color:black;padding:10px;" onclick="openNav()">&#9776;</span>
     </div>
+
+    <!-- MIDDLE -->
+    <div id = "aboutmoi">
+    	<span style = "font-family: 'Amatic SC', cursive; font-size: 50px">
+    		EDUCATION:
+    		<br>
+    	</span>
+    	Classes I am taking Spring 2018 include --
+    	<ul><li> CS 61B: Data Structures </li>
+    		<li> CS 70: Discrete Mathematics and Probability Theory </li>
+    		<li> EE 16B: Designing Information Devices and Systems II </li>
+    		<li> MUS 25: Introduction to Music Theory </li>
+    		<li> IND ENG 95: A. Richard Newton Lecture Series </li>
+    	</ul>
+    	Previous classes include -- The Structure and Interpretation of Computer Programs, Linear Algebra and Differential Equations, Multivariable Calculus
+    	<br>
+    	<br>
+
+    	<span style = "font-family: 'Amatic SC', cursive; font-size: 50px">
+    		INTERESTS AND HOBBIES:
+    		<br>
+    	</span>
+    	My interests and hobbies are varied and, in addition to my majors (Computer Science and Applied Math), include --
+    	<ul><li> Absorbing new knowledge </li>
+    		<li> Solving logic puzzles </li>
+    		<li> Keeping an aesthetic planner with my own unique spreads </li>
+    		<li> Handwriting positive and/or motivational quotes </li>
+    		<li> Classical novels </li>
+    		<li> Puns and Memes </li>
+    	</ul>
+
+    	<span style = "font-family: 'Amatic SC', cursive; font-size: 50px">
+    		PERSONAL MOTTOS AND FAV QUOTES:
+    		<br>
+    	</span>
+    	<ul><li> Keep it Simple and Elegant. </li>
+    		<li> Do it Once and do it Well. </li>
+    		<li> "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it." ~ Bill Gates </li>
+    		<li> "No-one has ever become poor by giving." ~ Anne Frank </li>
+    		<li> "It does not matter how slowly you go so long as you do not stop." ~ Confucius </li>
+    	</ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div id="maintext">
+        <span style="display:table-cell; vertical-align: middle;">
+        	<div class = "ewenphoto" style = "float: center;">
+				<img height = "250px" width = "360px" src = "img/ewenphoto.jpg">
+			</div>
+		</span>
+        
+        <div id="contact-info">
+	        Ewen Dai
+	        <br>
+	        <br>
+	        <a href="mailto:ewendai@berkeley.edu"><img src="img/iconemail.png" height="25" width="25"> Email </a><br>
+	        <a href="https://www.linkedin.com/in/ewendai"><img src="img/iconlinkedin.png" height="25" width="25"> LinkedIn </a><br>
+	        <a href="https://github.com/ewendai"><img src="img/icongithub.png" height="25" width="25"> GitHub </a>
+	    </div>
+
+        <div id="footer">
+         
+        </div>
+    </div>
+
+    <script src="js/mainMenu.js"></script>
 
 </body>
 </html>
