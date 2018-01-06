@@ -128,7 +128,7 @@ body{
 }
 
 /* ABOUT ME */
-#aboutmoi{
+#aboutmoi, #orgs{
 	font-size: 20px;
 	width: 40vw;
 	height: 100%;
