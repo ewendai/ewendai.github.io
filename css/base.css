@@ -23,16 +23,14 @@ body{
 
 /* NAVIGATION */
 #logo{
-  font-family: 'Cinzel', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: bold;
-  color: black;
+  color: #6D7993;
   height: 75px; 
   width: 105px;
   text-align: center;
-  border: .1px transparent black;
   line-height: 100%;
-  float: left;
 }
 
 #sidebar {
@@ -148,7 +146,16 @@ body{
 	float: bottom;
 }
 
-/* ACADEMICS PAGE */
+#academ, #extracurr, #proj{
+	width: 40vw;
+	height: 100%;
+	padding-left: 15%;
+	float: center;
+	text-align: left;
+	font-size: 20px;
+	overflow: hidden;
+	border: .1px black;
+}
 
 #rightside {
 	font-family: "Roboto Condensed";
@@ -162,15 +169,4 @@ body{
 	overflow: hidden;
 	right:5%;
 	top:0;
-}
-
-#academ, #extracurr, #proj{
-	width: 40vw;
-	height: 100%;
-	padding-left: 15%;
-	float: center;
-	text-align: left;
-	font-size: 20px;
-	overflow: hidden;
-	border: .1px black;
 }
