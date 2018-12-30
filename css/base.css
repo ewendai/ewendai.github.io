@@ -150,26 +150,27 @@ body{
 
 /* ACADEMICS PAGE */
 
-#maintext {
-	font-family: 'Domine', serif;
+#rightside {
+	font-family: "Roboto Condensed";
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 	padding-top: 7%;
+	padding-left: 5%;
 	width: 30%;
+	height: 100%;
 	position: fixed;
-	overflow: scroll;
+	overflow: hidden;
 	right:5%;
 	top:0;
 }
 
-#academ{
-	font-size: 20px;
+#academ, #extracurr{
 	width: 40vw;
 	height: 100%;
-	overflow: hidden;
-	padding-top: 6%;
 	padding-left: 15%;
 	float: center;
 	text-align: left;
-	border: .1px transparent black;
+	font-size: 20px;
+	overflow: hidden;
+	border: .1px black;
 }
