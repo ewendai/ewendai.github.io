@@ -146,6 +146,8 @@ body{
 	float: bottom;
 }
 
+/* Other Pages */ 
+
 #academ, #extracurr, #proj{
 	width: 40vw;
 	height: 100%;
@@ -155,6 +157,14 @@ body{
 	font-size: 20px;
 	overflow: hidden;
 	border: .1px black;
+}
+
+#proj a:link {
+	color: #3A4C7A;
+}
+
+#proj a:link:hover {
+	color: #96858F;
 }
 
 #rightside {
