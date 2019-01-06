@@ -26,11 +26,11 @@ body{
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: bold;
-  color: #6D7993;
-  height: 75px; 
-  width: 105px;
+  color: #011F4B;
+  height: 60px; 
+  width: 100px;
   text-align: center;
-  line-height: 100%;
+  line-height: 80%;
 }
 
 #sidebar {
